@@ -6,7 +6,7 @@ const Header = () => {
 	return (
 		<header className='header'>
 			<div className='container'>
-				<div className="header__nav">
+				<div className='header__nav'>
 					<nav className='header__nav-main'>
 						<ul className='header__list'>
 							<li className='header__list-item'>Why Xref</li>
@@ -17,8 +17,12 @@ const Header = () => {
 						</ul>
 					</nav>
 					<div className='header__action'>
-						<a className="header__action-link" href=''>Sign in</a>
-						<Button className="btn-request">Request a demo</Button>
+						<a
+							className='header__action-link'
+							href=''>
+							Sign in
+						</a>
+						<Button className='btn-request'>Request a demo</Button>
 					</div>
 				</div>
 			</div>
