@@ -1,24 +1,25 @@
 .button {
 	cursor: pointer;
-    border-radius: 100px;
-    font-size: 14px;
-		font-weight: 400;
-		line-height: 1.2;
-		text-align: center;
+	border-radius: 100px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+
 	&.btn-request {
 		width: 153px;
 		height: 42px;
 		background: #164038;
 		color: #e1ffa0;
 		border: 1px solid #164038;
-		
 	}
-  &.get__started{
-    width: 174px;
+
+	&.get__started {
+		width: 174px;
 		height: 50px;
 		background: #e1ffa0;
 		color: #0c2520;
 		border: 1px solid #e1ffa0;
-    margin-right: 20px;
-  }
+		margin-right: 20px;
+	}
 }

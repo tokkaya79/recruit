@@ -1,4 +1,6 @@
 import Button from "@/components/Button";
+import GetFeedback from "@/components/GetFeedback";
+
 import "../styles/home.scss";
 
 const Home = () => {
@@ -23,6 +25,7 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+      <GetFeedback/>
 		</>
 	);
 };

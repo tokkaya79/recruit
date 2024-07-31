@@ -1,0 +1,34 @@
+.get-feedback {
+	background-color: #0c2520;
+	color: #fff;
+	padding-top: 160px;
+	&__top {
+		display: flex;
+		justify-content: space-between;
+    margin-bottom: 90px;
+		&-left {
+			width: 30%;
+		}
+		&-right {
+			width: 50%;
+		}
+	}
+	&__undertitle {
+		font-size: 21px;
+		margin-bottom: 15px;
+	}
+	&__title {
+		font-size: 42px;
+	}
+	&__list-item {
+		margin-bottom: 30px;
+	}
+	&__name {
+		color: #e1ffa0;
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+	&____description {
+		font-size: 16px;
+	}
+}
