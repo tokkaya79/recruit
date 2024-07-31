@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 import "../styles/header.scss";
 
 const Header = () => {
@@ -16,7 +18,7 @@ const Header = () => {
 					</nav>
 					<div className='header__action'>
 						<a className="header__action-link" href=''>Sign in</a>
-						<button>Request a demo</button>
+						<Button className="btn-request">Request a demo</Button>
 					</div>
 				</div>
 			</div>

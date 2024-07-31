@@ -1,0 +1,15 @@
+.button {
+  cursor: pointer;
+  &.btn-request{
+    width: 153px;
+    height: 42px;
+    background: #164038;
+    color: #e1ffa0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid #164038;
+    border-radius: 100px;
+  }
+}
