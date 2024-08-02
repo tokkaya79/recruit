@@ -1,0 +1,48 @@
+.card-feedback {
+	width: 380px;
+	height: 430px;
+	background-color: #164038;
+	border-radius: 4px;
+	padding: 32px 32px 13px 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #fff;
+
+	&__title {
+		display: flex;
+		justify-content: space-between;
+		font-size: 29px;
+		gap: 5px;
+		margin-bottom: 15px;
+
+		&--span {
+			color: #e1ffa0;
+		}
+	}
+
+	&__subtitle {
+		font-size: 22px;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 13px;
+
+		&--span {
+			font-size: 10px;
+			padding: 5px;
+			background-color: #ffffff33;
+		}
+
+		&--span-yellow {
+			background-color: #e1ffa0;
+			color: #164038;
+			text-transform: uppercase;
+		}
+	}
+
+	&__text {
+		font-size: 13px;
+		line-height: 1.8;
+	}
+}
