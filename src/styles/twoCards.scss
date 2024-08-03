@@ -1,0 +1,8 @@
+.two-cards{
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 32px 0;
+  }
+}

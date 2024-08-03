@@ -1,0 +1,32 @@
+.two-cards-item {
+	height: 250px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 10px 80px 35px 35px;
+	color: #0c2520;
+
+	&__title {
+		font-size: 21px;
+		line-height: 1.2;
+	}
+
+	&__text {
+		margin-top: 8px;
+		margin-bottom: 20px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	&__link {
+		font-size: 14px;
+		line-height: 1.2;
+		color: #164038;
+    &:hover {
+			text-decoration: underline;
+			text-decoration-color: #16403889;
+		}
+	}
+}

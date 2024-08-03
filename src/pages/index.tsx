@@ -2,6 +2,7 @@ import Additional from "@/components/Additional";
 import Button from "@/components/Button";
 import GetFeedback from "@/components/GetFeedback";
 import Platform from "@/components/Platform";
+import TwoCards from "@/components/TwoCards";
 
 import "../styles/home.scss";
 
@@ -30,6 +31,7 @@ const Home = () => {
 			<GetFeedback />
       <Platform/>
       <Additional/>
+      <TwoCards/>
 		</>
 	);
 };
