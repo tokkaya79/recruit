@@ -1,3 +1,4 @@
+import Additional from "@/components/Additional";
 import Button from "@/components/Button";
 import GetFeedback from "@/components/GetFeedback";
 import Platform from "@/components/Platform";
@@ -28,6 +29,7 @@ const Home = () => {
 			</section>
 			<GetFeedback />
       <Platform/>
+      <Additional/>
 		</>
 	);
 };
