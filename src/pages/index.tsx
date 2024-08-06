@@ -1,5 +1,6 @@
 import Additional from "@/components/Additional";
 import Button from "@/components/Button";
+import ForTeams from "@/components/ForTeams";
 import GetFeedback from "@/components/GetFeedback";
 import Platform from "@/components/Platform";
 import TwoCards from "@/components/TwoCards";
@@ -32,6 +33,7 @@ const Home = () => {
       <Platform/>
       <Additional/>
       <TwoCards/>
+      <ForTeams/>
 		</>
 	);
 };
