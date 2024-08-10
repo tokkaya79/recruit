@@ -14,7 +14,7 @@ const ForTeams = () => {
 							Fits seamlessly into your ecosystem
 						</h2>
 						<h3 className='for-teams__info-block-title'>Talent acquisition</h3>
-            <hr className="for-teams__line"/>
+						<hr className='for-teams__line' />
 						<p className='for-teams__info-block-text'>
 							In a fast-paced market, efficiency and trust are essential for
 							Talent Acquisition. Data-driven insights can help confident
@@ -26,7 +26,7 @@ const ForTeams = () => {
 							Learn more
 						</Link>
 						<h3 className='for-teams__info-block-title'>People and culture</h3>
-            <hr className="for-teams__line"/>
+						<hr className='for-teams__line' />
 						<p className='for-teams__info-block-text'>
 							In a fast-paced, people-driven market, recruiting and retaining
 							talent is a challenge. Data-driven feedback is vital to recruit,
