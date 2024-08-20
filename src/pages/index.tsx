@@ -1,5 +1,6 @@
 import Additional from "@/components/Additional";
 import Button from "@/components/Button";
+import CustomersSays from "@/components/CustomersSays";
 import ForIndustries from "@/components/ForIndustries";
 import ForTeams from "@/components/ForTeams";
 import GetFeedback from "@/components/GetFeedback";
@@ -36,6 +37,7 @@ const Home = () => {
       <TwoCards/>
       <ForTeams/>
       <ForIndustries/>
+      <CustomersSays/>
 		</>
 	);
 };
