@@ -4,31 +4,37 @@
 	height: 80px;
 	display: flex;
 	align-items: center;
+
 	&__nav {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
 	}
+
 	&__nav-main {
 		display: flex;
 		margin-left: 300px;
 		font-weight: 400;
 		line-height: 1.2;
 		font-size: 14px;
-		color: rgba(43, 44, 79, 1);
+		color: #2b2c4f;
 	}
+
 	&__list {
 		display: flex;
 		gap: 50px;
-		&-item {
+
+		&-item a {
 			cursor: pointer;
+
 			&:hover {
 				text-decoration: underline;
 				text-decoration-color: #2b2c4f62;
 			}
 		}
 	}
+
 	&__action {
 		display: flex;
 		align-items: center;
@@ -37,8 +43,10 @@
 		line-height: 1.2;
 		font-size: 14px;
 		color: #2b2c4f;
+
 		&-link {
 			cursor: pointer;
+
 			&:hover {
 				text-decoration: underline;
 				text-decoration-color: #2b2c4f62;

@@ -1,45 +1,64 @@
-@import './reset.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "./reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+	max-width: 100vw;
+	overflow-x: hidden;
+	font-family: "Roboto", sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.3;
-  font-weight: 400;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.3;
+	font-weight: 400;
 }
 
 .layout {
-  position: relative;
+	position: relative;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
-.container { 
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 30px;
+.container {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.section-page {
+	height: 500px;
+
+	& .container {
+		padding: 80px 10px;
+		text-align: center;
+	}
+
+	.background-line {
+		height: 80px;
+		background-color: #256a5d;
+	}
+
+	h2 {
+		font-size: 56px;
+		color: #164038;
+	}
 }
