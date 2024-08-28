@@ -1,18 +1,18 @@
-import { useState } from "react";
-
 import "../styles/burgerMenu.scss";
 
-const BurgerMenu = () => {
-	const [menuOpen, setMenuOpen] = useState(false);
-	const toggleMenu = () => {
-		setMenuOpen(!menuOpen);
-	};
+const BurgerMenu = ({
+	menuOpen,
+	toggleMenu,
+}: {
+	toggleMenu: () => void;
+	menuOpen: boolean;
+}) => {
 	return (
 		<div
 			className={`burger-menu ${menuOpen ? "burger-menu--open" : ""}`}
 			onClick={toggleMenu}>
-			<div className='burger-menu__line'></div>
-			<div className='burger-menu__line'></div>
+			<span className='burger-menu__line'></span>
+			<span className='burger-menu__line'></span>
 		</div>
 	);
 };

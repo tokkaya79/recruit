@@ -1,21 +1,37 @@
-import Button from "./Button";
-import Link from "../../node_modules/next/link";
+import { useState } from "react";
 import { useRouter } from "../../node_modules/next/router";
+import Link from "../../node_modules/next/link";
+import Button from "./Button";
+import BurgerMenu from "./BurgerMenu";
 
 import "../styles/header.scss";
-import BurgerMenu from "./BurgerMenu";
 
 const Header = () => {
 	const router = useRouter();
+	const [menuOpen, setMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setMenuOpen(!menuOpen);
+	};
+
+	const closeMenu = () => {
+		setMenuOpen(false);
+	};
+
 	return (
 		<header className='header'>
 			<div className='container'>
 				<div className='header__nav'>
-					<nav className='header__nav-main'>
+					<BurgerMenu
+						menuOpen={menuOpen}
+						toggleMenu={toggleMenu}
+					/>
+					<nav className={`header__nav-main ${menuOpen ? "open" : ""}`}>
 						<ul className='header__list'>
 							<li className='header__list-item'>
 								<Link
 									href='/'
+									onClick={closeMenu}
 									style={{
 										color: router.pathname === "/" ? "#256a5d" : "#2b2c4f",
 									}}>
@@ -25,6 +41,7 @@ const Header = () => {
 							<li className='header__list-item'>
 								<Link
 									href='/solutions'
+									onClick={closeMenu}
 									style={{
 										color:
 											router.pathname === "/solutions" ? "#256a5d" : "#2b2c4f",
@@ -35,6 +52,7 @@ const Header = () => {
 							<li className='header__list-item'>
 								<Link
 									href='/platform'
+									onClick={closeMenu}
 									style={{
 										color:
 											router.pathname === "/platform" ? "#256a5d" : "#2b2c4f",
@@ -45,6 +63,7 @@ const Header = () => {
 							<li className='header__list-item'>
 								<Link
 									href='/resources'
+									onClick={closeMenu}
 									style={{
 										color:
 											router.pathname === "/resources" ? "#256a5d" : "#2b2c4f",
@@ -55,6 +74,7 @@ const Header = () => {
 							<li className='header__list-item'>
 								<Link
 									href='/pricing'
+									onClick={closeMenu}
 									style={{
 										color:
 											router.pathname === "/pricing" ? "#256a5d" : "#2b2c4f ",
@@ -64,15 +84,19 @@ const Header = () => {
 							</li>
 						</ul>
 					</nav>
-					<BurgerMenu />
 					<div className='header__action'>
 						<Link
 							className='header__action-link'
-							href='/signIn'>
+							href='/signIn'
+							onClick={closeMenu}>
 							Sign in
 						</Link>
 						<Button className='btn-request'>
-							<Link href='/demo'>Request a demo</Link>
+							<Link
+								href='/demo'
+								onClick={closeMenu}>
+								Request a demo
+							</Link>
 						</Button>
 					</div>
 				</div>

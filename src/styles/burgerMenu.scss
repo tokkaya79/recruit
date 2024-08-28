@@ -1,5 +1,5 @@
 .burger-menu {
-	display: flex;
+	display: none;
 	flex-direction: column;
 	justify-content: space-around;
 	width: 40px;
@@ -23,4 +23,11 @@
 		transform: rotate(-45deg);
 		transform-origin: 20% 90%;
 	}
+}
+
+@media (max-width: 700px){
+  .burger-menu{
+    display: flex;
+     
+  }
 }
