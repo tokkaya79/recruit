@@ -3,6 +3,7 @@ import Link from "../../node_modules/next/link";
 import { useRouter } from "../../node_modules/next/router";
 
 import "../styles/header.scss";
+import BurgerMenu from "./BurgerMenu";
 
 const Header = () => {
 	const router = useRouter();
@@ -63,6 +64,7 @@ const Header = () => {
 							</li>
 						</ul>
 					</nav>
+					<BurgerMenu />
 					<div className='header__action'>
 						<Link
 							className='header__action-link'

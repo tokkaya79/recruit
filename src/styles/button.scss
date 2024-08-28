@@ -9,33 +9,39 @@
 	&.btn-request {
 		width: 153px;
 		height: 42px;
-		background: #164038;
+		background-color: #164038;
 		color: #e1ffa0;
 		border: 1px solid #164038;
-    &:hover{
-      background: #276e61;
-      border-color: #276e61;
-    }
+
+		&:hover {
+			background-color: #276e61;
+			border-color: #276e61;
+			transition: color, background-color, border-color 0.1s;
+		}
 	}
 
 	&.get__started {
 		width: 174px;
 		height: 50px;
-		background: #e1ffa0;
+		background-color: #e1ffa0;
 		color: #0c2520;
 		border: 1px solid #e1ffa0;
 		margin-right: 20px;
-    &:hover{
-      background: #276e61;
-      border-color: #276e61;
-      color: #e1ffa0;
-    }
+
+		&:hover {
+			background-color: #276e61;
+			border-color: #276e61;
+			color: #e1ffa0;
+			transition: color, background-color, border-color 0.1s;
+		}
 	}
-  &.additional__btn{
-    &:hover{
-      background: #276e61;
-      border-color: #276e61;
-      color: #e1ffa0;
-    }
-  }
+
+	&.additional__btn {
+		&:hover {
+			background-color: #276e61;
+			border-color: #276e61;
+			color: #e1ffa0;
+			transition: color, background-color, border-color 0.1s;
+		}
+	}
 }
