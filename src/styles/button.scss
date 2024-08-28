@@ -12,6 +12,10 @@
 		background: #164038;
 		color: #e1ffa0;
 		border: 1px solid #164038;
+    &:hover{
+      background: #276e61;
+      border-color: #276e61;
+    }
 	}
 
 	&.get__started {
@@ -21,5 +25,17 @@
 		color: #0c2520;
 		border: 1px solid #e1ffa0;
 		margin-right: 20px;
+    &:hover{
+      background: #276e61;
+      border-color: #276e61;
+      color: #e1ffa0;
+    }
 	}
+  &.additional__btn{
+    &:hover{
+      background: #276e61;
+      border-color: #276e61;
+      color: #e1ffa0;
+    }
+  }
 }
