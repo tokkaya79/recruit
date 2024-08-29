@@ -3,3 +3,16 @@
 	gap: 75px;
 	justify-content: space-between;
 }
+
+@media (max-width: 990px) {
+	.platform-info-items {
+		gap: 50px;
+	}
+}
+
+@media (max-width: 700px) {
+	.platform-info-items {
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+}

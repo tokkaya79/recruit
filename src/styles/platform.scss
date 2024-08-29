@@ -26,3 +26,44 @@
 		margin-top: 210px;
 	}
 }
+
+@media (max-width: 1160px) {
+	.platform {
+		padding-top: 100px;
+
+		&__info {
+			margin-top: 100px;
+		}
+	}
+}
+
+@media (max-width: 990px) {
+	.platform {
+		padding: 100px 5px 0 5px;
+
+		&__info {
+			margin-top: 70px;
+		}
+	}
+}
+
+@media (max-width: 700px) {
+	.platform {
+		&__title {
+			font-size: 36px;
+			text-align: center;
+		}
+	}
+}
+
+@media (max-width: 450px) {
+	.platform {
+		&__title {
+			font-size: 28px;
+		}
+
+		&__subtitle {
+			font-size: 18px;
+		}
+	}
+}
