@@ -41,3 +41,48 @@
 		font-size: 16px;
 	}
 }
+
+@media (max-width: 1160px) {
+	.get-feedback {
+		padding-top: 80px;
+		padding-bottom: 50px;
+
+		&__top {
+			margin-bottom: 50px;
+		}
+
+		&__top-left {
+			width: 40%;
+		}
+	}
+}
+
+@media (max-width: 700px) {
+	.get-feedback {
+		&__title {
+			font-size: 36px;
+		}
+
+		&__top {
+			flex-direction: column;
+			gap: 30px;
+			align-items: center;
+
+			&-left,
+			&-right {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 450px) {
+	.get-feedback {
+		&__title {
+			font-size: 28px;
+		}
+    &__undertitle {
+      font-size: 18px;
+    }
+	}
+}

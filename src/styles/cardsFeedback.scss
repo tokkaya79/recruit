@@ -3,3 +3,9 @@
 	gap: 30px;
 	justify-content: center;
 }
+
+@media (max-width: 990px) {
+	.cards-feedback {
+		flex-wrap: wrap;
+	}
+}

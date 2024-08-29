@@ -45,7 +45,7 @@ a {
 }
 
 .section-page {
-  margin-top: 80px;
+	margin-top: 80px;
 	height: 500px;
 
 	& .container {
@@ -64,9 +64,8 @@ a {
 	}
 }
 
-
 @media (max-width: 450px) {
-.container{
-  padding: 0 10px;
-}
+	.container {
+		padding: 0 10px;
+	}
 }

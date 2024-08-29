@@ -46,3 +46,18 @@
 		line-height: 1.8;
 	}
 }
+
+@media (max-width: 1160px) {
+	.card-feedback {
+		height: 340px;
+		padding: 15px;
+
+		&__title {
+			font-size: 22px;
+		}
+
+		&__subtitle {
+			font-size: 18px;
+		}
+	}
+}
