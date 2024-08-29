@@ -63,3 +63,10 @@ a {
 		color: #164038;
 	}
 }
+
+
+@media (max-width: 450px) {
+.container{
+  padding: 0 10px;
+}
+}
